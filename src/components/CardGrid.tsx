@@ -125,7 +125,7 @@ export function CardGrid() {
       case 'small':
         return `${baseClasses} bg-gray-800 text-white`
       case 'section-header':
-        return 'col-span-3 py-8'
+        return 'col-span-3 pt-8 pb-0 mb-0'
       default:
         return `${baseClasses} bg-gray-800 text-white`
     }
@@ -235,8 +235,18 @@ export function CardGrid() {
   return (
     <div className="max-w-6xl mx-auto px-6 py-12">
       {/* Card Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-fr">
-        {cards.map(renderCard)}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 auto-rows-fr">
+        {cards.filter(card => card.type !== 'header' && card.type !== 'skill').map(renderCard)}
+      </div>
+
+      {/* What I do section */}
+      <div className="mt-8 mb-4">
+        <h2 className="text-2xl font-semibold text-white">What I do</h2>
+      </div>
+
+      {/* Skills Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {cards.filter(card => card.type === 'skill').map(renderCard)}
       </div>
 
       {/* Footer */}
