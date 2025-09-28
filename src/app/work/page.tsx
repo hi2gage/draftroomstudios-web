@@ -128,7 +128,7 @@ export default function Work() {
 
           {/* Places I've Worked */}
           <div className="mb-16">
-            <h2 className="text-xl font-semibold text-white mb-8">Places I've Worked</h2>
+            <h2 className="text-xl font-semibold text-white mb-8">Places I&apos;ve Worked</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {companies.map((company, index) => (
                 <a
