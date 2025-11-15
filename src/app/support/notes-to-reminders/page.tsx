@@ -185,6 +185,126 @@ export default function NotesToRemindersSupport() {
             </div>
           </div>
 
+          {/* App Icons */}
+          <div className="mb-12">
+            <h2 className="text-2xl font-semibold text-white mb-6">App Icons & Assets</h2>
+            <div className="bg-gray-800 rounded-xl border border-gray-700 p-6">
+              <p className="text-gray-300 text-sm mb-6">
+                Download official app icons and assets for press, reviews, or sharing on social media.
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                {/* Icon 1 - Current */}
+                <div className="text-center">
+                  <div className="w-32 h-32 mx-auto mb-3 rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center shadow-lg">
+                    <div className="text-center">
+                      <div className="text-3xl mb-1">📝</div>
+                      <div className="text-xl">➡️</div>
+                      <div className="text-3xl mt-1">✅</div>
+                    </div>
+                  </div>
+                  <div className="text-xs text-gray-400">Current Icon</div>
+                  <div className="text-xs text-yellow-500 mt-1">1024×1024</div>
+                </div>
+
+                {/* Icon 2 - Simple */}
+                <div className="text-center">
+                  <div className="w-32 h-32 mx-auto mb-3 rounded-2xl bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center shadow-lg">
+                    <div className="text-center">
+                      <div className="text-5xl">📋</div>
+                    </div>
+                  </div>
+                  <div className="text-xs text-gray-400">Simple</div>
+                  <div className="text-xs text-gray-500 mt-1">Alternative</div>
+                </div>
+
+                {/* Icon 3 - Arrow */}
+                <div className="text-center">
+                  <div className="w-32 h-32 mx-auto mb-3 rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center shadow-lg">
+                    <div className="text-center text-white font-bold">
+                      <div className="text-2xl">Notes</div>
+                      <div className="text-3xl my-1">→</div>
+                      <div className="text-xl">Reminders</div>
+                    </div>
+                  </div>
+                  <div className="text-xs text-gray-400">Text Arrow</div>
+                  <div className="text-xs text-gray-500 mt-1">Alternative</div>
+                </div>
+
+                {/* Icon 4 - Checkmark */}
+                <div className="text-center">
+                  <div className="w-32 h-32 mx-auto mb-3 rounded-2xl bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center shadow-lg">
+                    <div className="text-center">
+                      <div className="text-6xl">✓</div>
+                    </div>
+                  </div>
+                  <div className="text-xs text-gray-400">Checkmark</div>
+                  <div className="text-xs text-gray-500 mt-1">Alternative</div>
+                </div>
+
+                {/* Icon 5 - List */}
+                <div className="text-center">
+                  <div className="w-32 h-32 mx-auto mb-3 rounded-2xl bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center shadow-lg">
+                    <div className="text-left pl-6">
+                      <div className="text-white text-2xl space-y-1">
+                        <div>☐ □ □</div>
+                        <div>☑ ■ ■</div>
+                        <div>☐ □ □</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="text-xs text-gray-400">Checklist</div>
+                  <div className="text-xs text-gray-500 mt-1">Alternative</div>
+                </div>
+
+                {/* Icon 6 - Modern */}
+                <div className="text-center">
+                  <div className="w-32 h-32 mx-auto mb-3 rounded-2xl bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center shadow-lg">
+                    <div className="text-white font-bold text-4xl">
+                      N→R
+                    </div>
+                  </div>
+                  <div className="text-xs text-gray-400">Minimal</div>
+                  <div className="text-xs text-gray-500 mt-1">Alternative</div>
+                </div>
+
+                {/* Icon 7 - iOS Style */}
+                <div className="text-center">
+                  <div className="w-32 h-32 mx-auto mb-3 rounded-2xl bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center shadow-lg">
+                    <div className="text-center space-y-1">
+                      <div className="text-4xl">📱</div>
+                      <div className="text-2xl">✓</div>
+                    </div>
+                  </div>
+                  <div className="text-xs text-gray-400">iOS Style</div>
+                  <div className="text-xs text-gray-500 mt-1">Alternative</div>
+                </div>
+
+                {/* Icon 8 - Bold */}
+                <div className="text-center">
+                  <div className="w-32 h-32 mx-auto mb-3 rounded-2xl bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center shadow-lg">
+                    <div className="text-white font-black text-5xl">
+                      2R
+                    </div>
+                  </div>
+                  <div className="text-xs text-gray-400">Bold Text</div>
+                  <div className="text-xs text-gray-500 mt-1">Alternative</div>
+                </div>
+              </div>
+
+              <div className="mt-6 text-center">
+                <p className="text-gray-400 text-sm mb-4">
+                  Need a specific size or format? Contact us for custom assets.
+                </p>
+                <a
+                  href="mailto:support@draftroomstudios.com?subject=App Icon Request"
+                  className="inline-block px-6 py-2 bg-gray-700 text-white rounded-full text-sm font-medium hover:bg-gray-600 transition-colors"
+                >
+                  Request Custom Assets
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Contact Support */}
           <div className="bg-gradient-to-br from-yellow-500/10 to-yellow-600/10 rounded-xl border border-yellow-500/20 p-8 text-center mb-12">
             <div className="text-3xl mb-4">💬</div>
