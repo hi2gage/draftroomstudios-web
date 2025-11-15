@@ -73,7 +73,7 @@ export default function NotesToRemindersSupport() {
                 <div className="text-gray-300 text-sm space-y-2">
                   <p>1. Open the Apple Notes app and create or open a note with a checklist</p>
                   <p>2. Tap the Share button (square with arrow pointing up)</p>
-                  <p>3. Select "Notes To Reminders" from the share sheet</p>
+                  <p>3. Select &quot;Notes To Reminders&quot; from the share sheet</p>
                   <p>4. Choose an existing Reminders list or create a new one</p>
                   <p>5. Tap to import - your checklist items will appear in Reminders!</p>
                 </div>
@@ -112,22 +112,22 @@ export default function NotesToRemindersSupport() {
               <div className="bg-gray-800 rounded-xl border border-gray-700 p-6">
                 <h3 className="text-lg font-semibold text-white mb-3">Can I import multiple notes at once?</h3>
                 <div className="text-gray-300 text-sm">
-                  <p>Currently, you can import one note at a time. Each note creates a separate set of reminders in your chosen list. We're considering batch import for future updates!</p>
+                  <p>Currently, you can import one note at a time. Each note creates a separate set of reminders in your chosen list. We&apos;re considering batch import for future updates!</p>
                 </div>
               </div>
 
               {/* FAQ 5 */}
               <div className="bg-gray-800 rounded-xl border border-gray-700 p-6">
-                <h3 className="text-lg font-semibold text-white mb-3">The share extension doesn't appear. What should I do?</h3>
+                <h3 className="text-lg font-semibold text-white mb-3">The share extension doesn&apos;t appear. What should I do?</h3>
                 <div className="text-gray-300 text-sm space-y-2">
-                  <p>If you don't see "Notes To Reminders" in the share sheet:</p>
+                  <p>If you don&apos;t see &quot;Notes To Reminders&quot; in the share sheet:</p>
                   <ol className="list-decimal list-inside space-y-1 ml-2">
                     <li>Open the share sheet from Apple Notes</li>
-                    <li>Scroll to the right and tap "More" or "Edit Actions"</li>
-                    <li>Find "Notes To Reminders" and enable it</li>
+                    <li>Scroll to the right and tap &quot;More&quot; or &quot;Edit Actions&quot;</li>
+                    <li>Find &quot;Notes To Reminders&quot; and enable it</li>
                     <li>Drag it to your preferred position</li>
                   </ol>
-                  <p className="mt-3">If it still doesn't appear, try restarting your device.</p>
+                  <p className="mt-3">If it still doesn&apos;t appear, try restarting your device.</p>
                 </div>
               </div>
 
@@ -143,7 +143,7 @@ export default function NotesToRemindersSupport() {
               <div className="bg-gray-800 rounded-xl border border-gray-700 p-6">
                 <h3 className="text-lg font-semibold text-white mb-3">Is the app free?</h3>
                 <div className="text-gray-300 text-sm">
-                  <p>Yes! Notes to Reminders is completely free with no ads, no in-app purchases, and no subscriptions. We built it to solve a problem we had, and we're happy to share it with everyone.</p>
+                  <p>Yes! Notes to Reminders is completely free with no ads, no in-app purchases, and no subscriptions. We built it to solve a problem we had, and we&apos;re happy to share it with everyone.</p>
                 </div>
               </div>
 
@@ -157,7 +157,7 @@ export default function NotesToRemindersSupport() {
                     <li>Each checklist item as a separate reminder</li>
                     <li>Completion status preserved</li>
                   </ul>
-                  <p className="mt-3">We're considering additional customization options like due dates and priorities for future updates.</p>
+                  <p className="mt-3">We&apos;re considering additional customization options like due dates and priorities for future updates.</p>
                 </div>
               </div>
             </div>
@@ -170,8 +170,8 @@ export default function NotesToRemindersSupport() {
               <h3 className="text-lg font-semibold text-white mb-4">Common Issues</h3>
               <div className="space-y-4 text-gray-300 text-sm">
                 <div>
-                  <p className="font-medium text-white mb-2">Some items didn't import</p>
-                  <p>Make sure your checklist items are formatted as checkboxes in Notes. Plain text lines won't be imported.</p>
+                  <p className="font-medium text-white mb-2">Some items didn&apos;t import</p>
+                  <p>Make sure your checklist items are formatted as checkboxes in Notes. Plain text lines won&apos;t be imported.</p>
                 </div>
                 <div>
                   <p className="font-medium text-white mb-2">App crashes or freezes</p>
@@ -310,7 +310,7 @@ export default function NotesToRemindersSupport() {
             <div className="text-3xl mb-4">💬</div>
             <h2 className="text-2xl font-semibold text-white mb-3">Still Need Help?</h2>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              Can't find what you're looking for? We're here to help! Send us an email and we'll get back to you as soon as possible.
+              Can&apos;t find what you&apos;re looking for? We&apos;re here to help! Send us an email and we&apos;ll get back to you as soon as possible.
             </p>
             <a
               href="mailto:support@draftroomstudios.com?subject=Notes to Reminders Support"

@@ -58,7 +58,7 @@ export default function Support() {
                   </div>
                 </div>
                 <p className="text-gray-300 text-sm">
-                  We're working on more great apps. Stay tuned!
+                  We&apos;re working on more great apps. Stay tuned!
                 </p>
               </div>
             </div>
@@ -74,7 +74,7 @@ export default function Support() {
                 </div>
                 <h3 className="text-lg font-semibold text-white mb-4">Get in Touch</h3>
                 <p className="text-gray-300 text-sm mb-4">
-                  Have questions or need help? We're here to assist you.
+                  Have questions or need help? We&apos;re here to assist you.
                 </p>
                 <a
                   href="mailto:support@draftroomstudios.com"
