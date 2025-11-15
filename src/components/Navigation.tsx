@@ -51,6 +51,14 @@ export function Navigation() {
             >
               Consulting
             </Link>
+            <Link
+              href="/support"
+              className={`font-medium transition-colors ${
+                pathname.startsWith('/support') ? 'text-yellow-500' : 'text-gray-400 hover:text-white'
+              }`}
+            >
+              Support
+            </Link>
           </nav>
 
           {/* Get In Touch Button */}
